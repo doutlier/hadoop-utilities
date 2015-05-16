@@ -1,0 +1,5 @@
+getmerge > this command is used to merge the files in a dir from HDFS and copies to a local file
+
+hadoop dfs -getmerge <dirInHDFS> <localFile>
+
+Takes all the files in dirInHDFS and concatenates all the files into the localFile
